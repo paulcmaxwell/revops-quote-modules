@@ -1,0 +1,25 @@
+{
+  "name": "quote-dev-starter",
+  "version": "1.0.0",
+  "description": "Custom-coded React modules for HubSpot Revenue Hub quote templates",
+  "private": true,
+  "scripts": {
+    "start": "hs-cms-dev-server .",
+    "deploy": "hs project upload"
+  },
+  "type": "module",
+  "keywords": [],
+  "dependencies": {
+    "@hubspot/cms-components": "^1.2.27",
+    "@hubspot/quote-dev-sdk": "0.2.0",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@hubspot/cms-dev-server": "^1.2.27",
+    "@types/react": "^18.3.28",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

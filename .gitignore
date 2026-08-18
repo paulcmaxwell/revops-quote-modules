@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+*.log
+hs-temp-repo-sync/
+
+# Local HubSpot account pin — machine/portal specific, would override a
+# teammate's default account if committed.
+.hsaccount
+
+# Working screenshots
+*.png
